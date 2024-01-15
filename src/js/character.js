@@ -14,7 +14,7 @@ export default class Character {
   }
 
   get attack() {
-    return this.attackPoints;
+    return Math.round(this.attackPoints);
   }
 
   set attack(range) {
